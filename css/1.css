@@ -1,0 +1,111 @@
+*{
+	margin:0px;
+	font-family: 'Alegreya';
+}
+body{
+	background:#0F050F;
+	float:left;
+	color: white;
+}
+section{
+	width:900px;
+	height: 650px;
+	margin-left: 20px;
+	margin-top:8px;
+	background-image: url("../img/fondo.jpg");
+	border-radius:10px;
+}
+div{
+	background:black;
+	width:150px;
+	height: 650px;
+	top:8px;
+	left:850px;
+	position:absolute;
+	border-radius:10px;
+}
+p{
+	color:white;
+}
+.sol{
+	width: 50px;
+	height: 50px;
+	left:372px;
+	top:220px;
+	position: absolute;
+}
+#fondo{
+	width: 800px;
+	height: 500px;
+	position: relative;
+}
+.tierra{
+	width: 12px;
+	height: 12px;
+	position: absolute;
+}
+.mercurio{
+	width: 7px;
+	height: 7px;
+	position: absolute;
+}
+.marte{
+	width: 8px;
+	height:8px;
+	position: absolute;
+}
+.jupiter{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+}
+.venus{
+	width: 10px;
+	height: 10px;
+	position: absolute;
+}
+.tierraa{
+	width: 12px;
+	height: 12px;
+	position: absolute;
+}
+.mercurioa{
+	width: 7px;
+	height: 7px;
+	position: absolute;
+}
+.martea{
+	width: 8px;
+	height:8px;
+	position: absolute;
+}
+.jupitera{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+}
+.venusa{
+	width: 10px;
+	height: 10px;
+	position: absolute;
+}
+.planetas{
+	width:80px;
+	height:80px;
+	margin:2px;
+}
+#agujeroNegro{
+	width: 60px;
+	height: 60px;
+	left:597px;
+	top:406px;
+	position: absolute;
+}
+label{
+	margin-left:3px;
+}
+input{
+	margin-top:3px;
+	margin-left:3px;
+	width:50px;
+}

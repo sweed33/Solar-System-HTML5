@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sistema Solar</title>
+	<link rel="shortcut icon" href="../img/icon.ico">
+	<link rel="stylesheet" type="text/css" href="../css/1.css">
+	<link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet'>
+</head>
+<body id="div1" >
+	<section id="padre" ondrop="drop(event)" ondragover="allowDrop(event)">
+		<article id="agunegro"><img src="../img/agunegro.png" id="agujeroNegro"  ondrop="dropAgu(event)" ondragover="allowDrop(event)"></img></article>
+	</section>
+	<div id="panel">
+		<img src="../img/mercurio.png" class="planetas" draggable="true" ondragstart="drag(event)" id="drag1" ></img><br>
+			<label>Velocidad:</label><input id="velmer" type="text" placeholder="1"></input><br>
+
+		<img src="../img/venus.png" class="planetas" draggable="true" ondragstart="drag(event)" id="drag3" ></img><br>
+			<label>Velocidad:</label><input id="velven" type="text" placeholder="1" ></input><br>
+
+		<img src="../img/tierra.png" class="planetas" draggable="true" ondragstart="drag(event)" id="drag2"></img><br>
+			<label>Velocidad:</label><input id="veltie" type="text"  placeholder="1"></input><br>
+
+		<img src="../img/marte.png" class="planetas" draggable="true" ondragstart="drag(event)" id="drag4"></img><br>
+			<label>Velocidad:</label><input id="velmar" type="text" placeholder="1"></input><br>
+
+		<img src="../img/jupiter.png" class="planetas" draggable="true" ondragstart="drag(event)" id="drag5"></img><br>
+			<label>Velocidad:</label><input id="veljup" type="text"  placeholder="1"></input>
+	</div>
+</body>
+<script type="text/javascript" src="../js/1.js"></script>
+</html>
